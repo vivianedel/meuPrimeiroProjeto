@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+       
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="receita.html">Receita</a> | 
+            <a href="video.html">Vídeo</a> | 
+            <a href="contato.html">Contato</a>
+        </nav>    
+		 <header>
+            <img alt="banner" src="imagem/banner1.jpg"/>
+        </header>
+        <section>
+			<h1>Entre na sua conta</h1>
+			<form>
+			Nome: <input type="text" name="nome"/><br/> 
+			Senha: <input type="password" name="senha"/><br/> 
+			E-mail: <input type="email" name="usermail"/> <br/> 
+
+			<form/>
+            <h2>Contato</h2>
+            <h3>Entre em contato conosco</h3>
+            <p>Preencha o formulário abaixo:</p>
+			
+            <form>
+			    <fieldset>
+           <legend>Informações pessoais:</legend>
+           Primeiro nome:
+           <br>
+           <input type="text" name="firstname" value="Digite aqui">
+           <br/> Sobrenome:
+           <br>
+           <input type="text" name="lastname" value="Digite aqui">
+           <br/>
+           <br/>
+           <input type="submit" value="Enviar">
+       </fieldset>
+	<br/>
+                <p>Email:<br/><input type="email" required="required"/></p>
+                
+                <p>Sexo:<br/>
+                    <input type="radio" name="sexo" value="M" />Masculino<br/>
+                    <input type="radio" name="sexo" value="F"/>Feminino
+                </p>
+				<h1>Informe sua receita favorita: </h1>
+				Receitas Preferidas: <input list="receitas" name="receita"/>
+		<datalist id="receitas">
+		 <option value="Bolos">
+		 <option value="Sobremesas">
+		 <option value="Mouses">
+		 <option value="Vitaminas">
+		 <option value="Assados">
+		 <option value="Ensopados">
+				</datalist>
+                <p>Assunto:<br/>
+                    <select>
+                        <option>Sugestões</option>
+                        <option>Opiniões</option>
+                        <option>Elogios</option>
+                    </select>
+                </p>
+                <textarea placeholder="Deixe sua mensagem aqui" required="required"></textarea>
+                <p><input type="submit" value="ENVIAR"/></p>
+            </form>
+        </section>
+        <footer>
+            <hr/>
+            <small> &copy;2021</small>
+        </footer>
+    </body>
+</html>
